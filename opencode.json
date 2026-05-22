@@ -1,0 +1,21 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "ux-ui-expert": {
+      "description": "Experto en UX/UI para interfaces móviles",
+      "mode": "subagent"
+    },
+    "security-analyst": {
+      "description": "Analista de seguridad de paquetes Node.js",
+      "mode": "subagent"
+    },
+    "documenter": {
+      "description": "Agente de documentación del proyecto",
+      "mode": "subagent"
+    },
+    "git-workflow": {
+      "description": "Agente de flujo de trabajo Git",
+      "mode": "subagent"
+    }
+  }
+}
